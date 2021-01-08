@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.7.0",
+    "coc-markdownlint": ">=1.9.0",
+    "coc-python": ">=1.2.13"
+  }
+}
