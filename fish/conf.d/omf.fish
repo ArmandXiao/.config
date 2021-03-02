@@ -5,3 +5,9 @@ set -q XDG_DATA_HOME
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
+
+# AUR download shell-script-color by distrotube
+colorscript random
+
+# change prompt
+starship init fish | source
