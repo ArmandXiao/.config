@@ -18,3 +18,9 @@ Plugins
 - `jethrokuan/z`
 
 check `~/.config/fish/functions` to see the **registered functions** of plugins.
+
+## Gnome Desktop Keybinding
+- `gnome_keybinding.conf`
+
+backup: `dconf dump / > ~/.config/gnome_keybinding.conf`
+restore: `dconf load / < ~/.config/gnome_keybinding.conf`
